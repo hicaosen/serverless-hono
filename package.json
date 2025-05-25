@@ -1,0 +1,27 @@
+{
+  "name": "driveconnector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudbase/functions-framework": "^1.8.0",
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cloudbase/functions-typings": "^1.2.1",
+    "@cloudbase/node-sdk": "^3.7.0",
+    "hono": "^4.7.10"
+  }
+}
